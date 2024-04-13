@@ -48,7 +48,7 @@
             font-weight: bold; 
             font-family: Cambria, "Times New Roman", serif;
         }
-        #header {
+        #header.bg-dark {
             position: absolute;
             top: 10px;
             left: 10px;
@@ -56,7 +56,7 @@
             height: 135px;
             border-bottom: 1px solid #999999;
             /* Add background styles for the header here */
-            background-image: url("https://lh3.googleusercontent.com/pw/AP1GczOQQ6gM6xs7AJBCv9FKf6A7syAgMZbu_8B7VZAHk1Sv2iXdaNpyVW9rWVYtC_1B8OyfHxRA_01AgOYySAMgSOc8FE87ZititKkpLKZIA919Poe6xcHjtKG7QBvg1Z1lL6PC1gGYgr1QUUMtZQ77iSgG6pSginBSnZ09ob0i5PJjE0BpLKFg8hPPj86OMj8nDLLd9okV-XyN7Yo9tH0sDbLHjGgvft8MjZdMS7faXFJgMzk5dj0f3dMKx_eUWWUZISW8A7_XxDBTGj6Epvg2XJfEUzwAqcxoSHfxxne5XDqLitUhMGjiuCZ1u0w91wbn-VsFMjuASne3lzvEojD3jjdAVkpCdpf2pChLxLRUB2DxlOOgn_StHaSC4Ci1_7eEtksABOcEbnzdtCmajFHTPg2Rc4Wk1LbA32bfHAXdZBvBDYxVE5YEfFb0tSNknvMrGqDjw7GLdB2-fPuL_Kl2MODDGErmAYmXamswKRoF06W0w-60lj_N7GZN86_Ley5bSeec7DIuI30pR4llNWVu35tRalcpe2EwLYvYRGNWnqhbRS12DvZHgSAtn5TI5sLtlUb6tGJ5YxuTLfII4r6oJOO3hIqSCi05-bh_hqNpvjAq_ETuwx-h5ZIOzdu97EtLzTge2hJTJIZ7ooEmBsaQ77dOPy-eko6pNp_gLzplueSA9cLmnGSK3TusE1nP6focDN3VTn2rB3hXK7jGXkooldik3b_ps29fap6tOZNOqzJSEb-s7LrZ-hJHrTqiHvqTgQpKYfeXUH-aDN7IyWyLlhho186ncbad-3zhyf9oVmmNkdtGfSZYYbl46dWI6jklisQquX8UlqOCD4MLhnORQN77Y0lhy68h3jPNIk8FTscH9wv2TphkDBcFQk8sDozr7nNuzJaL7zjUJxcGZa1lPwQlfdSG=w1715-h817-s-no-gm?authuser=0");
+            background-image: url("https://lh3.googleusercontent.com/pw/AP1GczNNiWZqmYjAcgHaDUC-DWyzO39lb68Y4qJM8ZFcyXI5yntey3pQk6lNi_qlxvp9k0bw75NPRS1l6sgnqFmcNBx0Ze64-D6mAgeSxEL0YYX7DZ8kZeiXbpvtVKWj79AORD1kKJMcP1fo0Oo9lW9lKajZ-A=w1825-h869-s-no-gm?authuser=0");
             background-size: cover;
             background-position: center;
         }
