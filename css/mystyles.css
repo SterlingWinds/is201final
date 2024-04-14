@@ -6,15 +6,12 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             font-size: 14px;
-            color: #333333;
-            /* Add background styles here */
-            background-image: url("https://lh3.googleusercontent.com/pw/AP1GczOQQ6gM6xs7AJBCv9FKf6A7syAgMZbu_8B7VZAHk1Sv2iXdaNpyVW9rWVYtC_1B8OyfHxRA_01AgOYySAMgSOc8FE87ZititKkpLKZIA919Poe6xcHjtKG7QBvg1Z1lL6PC1gGYgr1QUUMtZQ77iSgG6pSginBSnZ09ob0i5PJjE0BpLKFg8hPPj86OMj8nDLLd9okV-XyN7Yo9tH0sDbLHjGgvft8MjZdMS7faXFJgMzk5dj0f3dMKx_eUWWUZISW8A7_XxDBTGj6Epvg2XJfEUzwAqcxoSHfxxne5XDqLitUhMGjiuCZ1u0w91wbn-VsFMjuASne3lzvEojD3jjdAVkpCdpf2pChLxLRUB2DxlOOgn_StHaSC4Ci1_7eEtksABOcEbnzdtCmajFHTPg2Rc4Wk1LbA32bfHAXdZBvBDYxVE5YEfFb0tSNknvMrGqDjw7GLdB2-fPuL_Kl2MODDGErmAYmXamswKRoF06W0w-60lj_N7GZN86_Ley5bSeec7DIuI30pR4llNWVu35tRalcpe2EwLYvYRGNWnqhbRS12DvZHgSAtn5TI5sLtlUb6tGJ5YxuTLfII4r6oJOO3hIqSCi05-bh_hqNpvjAq_ETuwx-h5ZIOzdu97EtLzTge2hJTJIZ7ooEmBsaQ77dOPy-eko6pNp_gLzplueSA9cLmnGSK3TusE1nP6focDN3VTn2rB3hXK7jGXkooldik3b_ps29fap6tOZNOqzJSEb-s7LrZ-hJHrTqiHvqTgQpKYfeXUH-aDN7IyWyLlhho186ncbad-3zhyf9oVmmNkdtGfSZYYbl46dWI6jklisQquX8UlqOCD4MLhnORQN77Y0lhy68h3jPNIk8FTscH9wv2TphkDBcFQk8sDozr7nNuzJaL7zjUJxcGZa1lPwQlfdSG=w1715-h817-s-no-gm?authuser=0");
-            background-size: cover;
-            background-position: center;
+            color: #0d6efd;
+            
         }
 
         h1 {
-            color: white;
+            color: #white;
         }
         p {
             color: #666666;
@@ -38,13 +35,13 @@
             text-decoration: underline;
         }
         a:visited {
-            color: #5D4157;
+            color: #0d6efd;
         }
         .careerInterests {
             font-weight: normal; 
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
-        .resumeHeadings {
+        .Headings {
             font-weight: bold; 
             font-family: Cambria, "Times New Roman", serif;
         }
@@ -55,7 +52,6 @@
             right: 10px;
             height: 135px;
             border-bottom: 1px solid #999999;
-            /* Add background styles for the header here */
             background-image: url("https://lh3.googleusercontent.com/pw/AP1GczNNiWZqmYjAcgHaDUC-DWyzO39lb68Y4qJM8ZFcyXI5yntey3pQk6lNi_qlxvp9k0bw75NPRS1l6sgnqFmcNBx0Ze64-D6mAgeSxEL0YYX7DZ8kZeiXbpvtVKWj79AORD1kKJMcP1fo0Oo9lW9lKajZ-A=w1825-h869-s-no-gm?authuser=0");
             background-size: cover;
             background-position: center;
@@ -64,101 +60,7 @@
 </head>
 <body>
 
-    <h1>My CSS Styles</h1>
-
-    <p class="topImage">.topImage {
-        opacity: 0.2;
-        filter: alpha(opacity=20);
-        transform: rotate(90deg);
-        position: absolute;
-        right: -40px;
-    }</p>
-
-    <div id="header">
-        <!-- Header content goes here -->
-    </div>
-
-    <div id="navigation">
-        <!-- Navigation content goes here -->
-    </div>
-
-    <div id="mainbody">
-        <!-- Main body content goes here -->
-    </div>
-
-    <div id="photo">
-        <!-- Photo content goes here -->
-    </div>
-
-    <div id="info">
-        <!-- Info content goes here -->
-    </div>
-
-    <p class="bg-dark">.bg-dark {
-        background-size: cover;
-        background-position: center;
-    }</p>
-
-    <p>body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-        color: #333333;
-    }</p>
-
-    <p id="header">header {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        right: 10px;
-        height: 135px;
-        border-bottom: 1px solid #999999;
-    }</p>
-
-    <p id="navigation">navigation {
-        position: absolute;
-        top: 155px;
-        left: 10px;
-        width: 125px;
-        bottom: 10px;
-        border-right: 1px solid #999999;
-    }</p>
-
-    <p id="mainbody">mainbody {
-        position: absolute;
-        top: 145px;
-        left: 145px;
-        right: 10px;
-        bottom: 10px;
-    }</p>
-
-    <p id="photo">photo {
-        float: left;
-        margin-right: 15px;
-        transition: width 2s, height 2s, transform 2s;
-        -moz-transition: width 2s, height 2s, -moz-transform 2s;
-        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
-        -o-transition: width 2s, height 2s,-o-transform 2s;
-    }</p>
-
-    <p id="info">info {
-        position: absolute;
-        left: 145px;
-        top: 5px;
-    }</p>
-
-    <p class="resumeHeadings">resumeHeadings {
-        font-weight: bold; 
-        font-family: Cambria, "Times New Roman", serif;
-    }</p>
-
-    <p class="careerInterests">careerInterests {
-        font-weight: normal; 
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }</p>
-
-    <a href="#top">Back to the top</a>
-
-</body>
+ 
 </html>
 
 
